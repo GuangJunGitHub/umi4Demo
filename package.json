@@ -6,14 +6,16 @@
     "build": "umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
-    "start": "npm run dev"
-  },
-  "dependencies": {
-    "umi": "^4.3.6"
+    "start": "npm run dev",
+    "deploy": "yarn run build && gh-pages -d dist"
   },
   "devDependencies": {
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
-    "typescript": "^5.0.3"
+    "typescript": "^5.0.3",
+    "umi-plugin-gh-pages": "^1.0.1"
+  },
+  "dependencies": {
+    "umi4": "link:"
   }
 }
