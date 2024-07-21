@@ -12,7 +12,7 @@ export default function Layout() {
           <Link to="/docs">Docs</Link>
         </li>
         <li>
-          <a href="https://github.com/umijs/umi">Github</a>
+          <a href="https://github.com/umijs/umi">Github_test</a>
         </li>
       </ul>
       <Outlet />
